@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Hesap eklemede yardım aldım"""
+
 from Person import Person
-kullanici1=Person("Bora","Avcı","borabora2")
-kullanici2=Person("Güncel","Sarıman","Guncel1234")
+kullanici1=Person("Bora","Avcı","borabora2",0)
+kullanici2=Person("Güncel","Sarıman","Guncel1234",1)
 kullanici_listesi=[]
 kullanici_listesi.append(kullanici1)
 kullanici_listesi.append(kullanici2)
