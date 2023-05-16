@@ -7,6 +7,7 @@ kullanici_listesi=[]
 kullanici_listesi.append(kullanici1)
 kullanici_listesi.append(kullanici2)
 iscorrect=False
+yetki={kullanici1:0,kullanici2:1}
 SMS=1234 #aslında random olmalı
 while(True):
     print("Sisteme Hoşgeldiniz.\nGiriş Yap-1\nŞifremi Unuttum-2\n")
